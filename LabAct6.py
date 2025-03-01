@@ -51,7 +51,7 @@ class ShoppingCart:
 
     def display_catalog(self): # Display the catalog or list of items
         print("Catalog:")
-        for i, product in enumerate(self.catalog, start=1):
+        for i, product in enumerate(self.catalog, start=1): # Enumerate the catalog
             print(f"{i}. {product.get_info()}")  # Display each product with its index
         print()
 
