@@ -48,9 +48,9 @@ def main():
     library = Library() # Create a library instance
 
     # Create book instances
-    book1 = Book("The Great Gatsby", "F. Scott Fitzgerald", "123456789")
-    book2 = Book("1984", "George Orwell", "987654321")
-    book3 = Book("To Kill a Mockingbird", "Harper Lee", "567891234")
+    book1 = Book("Meditations", "Marcus Aurelius", "123456789")
+    book2 = Book("The Stranger", "Albert Camus", "987654321")
+    book3 = Book("Beyond Good and Evil", "Friedrich Nietzsche", "567891234")
 
     # Add books to the library
     library.add_book(book1)
